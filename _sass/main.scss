@@ -3,7 +3,6 @@ header {
     background: darken(#333, 3%);
   
     h1,
-    nav { display: inline-block; }
   
     .flexbox {
       display: flex;
@@ -12,3 +11,16 @@ header {
       & > * { margin: auto }
     }
 }
+
+nav, .meta {
+    display: inline-block;
+
+    ul {
+      padding: 0;
+      margin: 0;
+      white-space: nowrap;
+      display: inline-block;
+    }
+  
+    li { display: inline-block; }
+  }
