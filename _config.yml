@@ -1,3 +1,9 @@
 theme: jekyll-theme-slate
-title: Bits and pieces ... and bytes 🤖
+title: Bits and pieces ... and bytes
 description: This is my effort to display my project, share my ideas and thoughts and getting better at writing.
+
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: docs
